@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title> Meu Portfólio </title>
+
+</head>
+
+<body>
+    <header>
+        <a href="https://github.com/MateusMonteiro11" class="logo"> Mateus Monteiro </a>
+
+        <nav>
+            <a href="#" class="active"> Home </a>
+            <a href="#projetos"> Projetos </a>
+            <a href="#contato"> Contatos </a>
+            <a href="#"> Serviços </a>
+        </nav>
+        
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="imagens/imagem.png" alt="imagem_foto">
+        </div>
+        <div class="home-content">
+            <h1> Olá, eu sou <span> Mateus Monteiro</span></h1>
+            <h3 class="typing-text"> Eu sou um <span></span></h3>
+            <p>Meu nome é Mateus Monteiro, atualmente estudante
+                universitário da FEI e fluente em 3 idiomas, seja
+                bem vindo ao meu site de desenvolvimento web.
+            </p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Formulário</a>
+        </div>
+    </section>
+    <section class="projetos" id="projetos">
+    <h2 class="titulo">Meus <span>Projetos</span></h2>
+
+    <div class="container-projetos">
+        <div class="card-projeto">
+            <img src="imagens/pj1.png" alt="Projeto 1">
+            <h3> GERENCIAMENTO DE TRANSPORTES </h3>
+            <p> Desenvolvimento de um sistema voltado à otimização da logística de transporte em instituições de ensino superior, solucionando problemas de superlotação, ociosidade e atrasos através de dados complexos e modelos relacionais feitos totalmente em SQL.</p>
+            <a href="#" class="btn">Visualizar</a>
+        </div>
+
+        <div class="card-projeto">
+            <img src="imagens/pj2.png" alt="Projeto 2">
+            <h3> WEBSITE GAME FEITO EM JAVASCRIPT </h3>
+            <p>Projeto feito com a proposta de usar o conhecimento fullstack para recriar um jogo famoso, o jogo escolhido foi o clássico pacman, que induziu a criatividade e a necessidade do entendimento pela lógica, principalmente quando refere-se a JavaScript.</p>
+            <a href="#" class="btn">Visualizar</a>
+        </div>
+
+        <div class="card-projeto">
+            <img src="imagens/pj3.png" alt="Projeto 3">
+            <h3> GERENCIAMENTO DINÂMICO DE PLAYLIST'S MUSICAIS </h3>
+            <p>Um projeto feito inteiramente em python, feito como projeto de conclusão de semestre durante a universidade. Consiste em uma base lógica python que oferece um serviço de armazenamento de musicas e playlist's, parecido com os de serviços de streaming.</p>
+            <a href="#" class="btn">Visualizar</a>
+        </div>
+    </div>
+</section>
+<section class="contato" id="contato">
+    <h2 class="titulo">Entre em <span>Contato</span></h2>
+
+    <form action="https://formspree.io/f/xbloarwp" method="POST" class="form-contato">
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <textarea name="mensagem" rows="6" placeholder="Sua mensagem" required></textarea>
+        <button type="submit" class="btn">Enviar</button>
+    </form>
+    
+</section>
+
+</body>
+</html>
+<script src="typing.js"></script>
+</html>
