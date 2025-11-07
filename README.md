@@ -51,7 +51,7 @@ Sinta‑se à vontade para modificar:
 - Links de contato: atualize para o seu LinkedIn, GitHub, e‑mail ou portfólio externo.
 
 ## 📝 Licença  
-Este projeto está licenciado sob a licença MIT — consulte o arquivo `LICENSE` para mais informações.
+Este projeto está licenciado sob os direito de reservação da minha imagem, qualquer violação indevida deste material deve será considerada como plágio, consulte mais informações em `LICENSE` para mais informações.
 
 ---
 
