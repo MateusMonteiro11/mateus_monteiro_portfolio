@@ -9,7 +9,6 @@ Este repositório contém os arquivos do meu site pessoal desenvolvido para apre
   - HTML para a estrutura de páginas  
   - CSS para layout, responsividade e estilo  
   - JavaScript para interatividade (ex.: digitação automática)  
-- Objetivo: Criar um portfólio moderno, leve e responsivo que mostre minhas competências e projetos de forma clara.
 
 ## 📁 Estrutura do Repositório  
 /
@@ -35,20 +34,6 @@ Este repositório contém os arquivos do meu site pessoal desenvolvido para apre
 - Editor: Visual Studio Code (ou similar)  
 - Hospedagem: GitHub Pages (ou outro serviço estático)  
 - Controle de versão: Git & GitHub
-
-## 🚀 Como executar localmente  
-1. Clone o repositório  
-   git clone https://github.com/MateusMonteiro11/mateus_monteiro_portfolio.git
-2. Acesse a pasta do projeto  
-   cd mateus_monteiro_portfolio
-3. Abra o arquivo `index.html` no navegador de sua preferência.  
-4. (Opcional) Realize alterações de estilo ou conteúdo conforme desejado.
-
-## 🎨 Personalização  
-Sinta‑se à vontade para modificar:  
-- Cores e fonte: edite `style.css` para ajustar à sua identidade visual.  
-- Textos e imagens: substitua pelas suas informações, projetos e foto pessoal.  
-- Links de contato: atualize para o seu LinkedIn, GitHub, e‑mail ou portfólio externo.
 
 ## 📝 Licença  
 Este projeto está licenciado sob os direito de reservação da minha imagem, qualquer violação indevida deste material deve será considerada como plágio, consulte mais informações em `LICENSE` para mais informações.
