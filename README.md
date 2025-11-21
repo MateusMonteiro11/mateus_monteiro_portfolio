@@ -1,5 +1,4 @@
 # Mateus Monteiro – Portfolio Web  
-Bem‑vindo ao meu portfólio web! 🚀  
 Este repositório contém os arquivos do meu site pessoal desenvolvido para apresentar meus trabalhos, habilidades e contato.
 
 ## 🔍 Visão Geral  
@@ -12,12 +11,12 @@ Este repositório contém os arquivos do meu site pessoal desenvolvido para apre
 
 ## 📁 Estrutura do Repositório  
 /
-├── index.html           ← Página principal do portfólio  
-├── style.css            ← Arquivo de estilos (layout, cores, responsividade)  
-├── typing.js            ← Script de animação de digitação (efeito type‑writer)  
-├── imagens/             ← Pasta com imagens usadas no site  
-├── documentos/          ← (opcional) Documentos, currículo, certificados etc  
-└── LICENSE              ← Licença MIT  
+├── index.html
+├── style.css
+├── typing.js
+├── imagens/
+├── documentos/
+└── LICENSE
 
 ## 🎯 Funcionalidades  
 - Layout responsivo: adaptável para desktop, tablet e celular.  
