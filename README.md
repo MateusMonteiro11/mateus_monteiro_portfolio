@@ -11,12 +11,12 @@ Este repositório contém os arquivos do meu site pessoal desenvolvido para apre
 
 ## 📁 Estrutura do Repositório  
 /
-├── index.html
-├── style.css
-├── typing.js
-├── imagens/
-├── documentos/
-└── LICENSE
+├── index.html                  
+├── style.css                  
+├── typing.js                
+├── imagens/                 
+├── documentos/                   
+└── LICENSE                   
 
 ## 🎯 Funcionalidades  
 - Layout responsivo: adaptável para desktop, tablet e celular.  
