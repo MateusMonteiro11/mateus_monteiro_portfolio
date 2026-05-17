@@ -7,16 +7,7 @@ Este repositório contém os arquivos do meu site pessoal desenvolvido para apre
 - Tecnologias principais: HTML, CSS, JavaScript  
   - HTML para a estrutura de páginas  
   - CSS para layout, responsividade e estilo  
-  - JavaScript para interatividade (ex.: digitação automática)  
-
-## 📁 Estrutura do Repositório  
-/
-├── index.html                  
-├── style.css                  
-├── typing.js                
-├── imagens/                 
-├── documentos/                   
-└── LICENSE                   
+  - JavaScript para interatividade (ex.: digitação automática)            
 
 ## 🎯 Funcionalidades  
 - Layout responsivo: adaptável para desktop, tablet e celular.  
