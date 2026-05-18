@@ -163,17 +163,24 @@ span{
 }
 
 .btn{
-    display: inline-block;
-    position: 1rem 2.8rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    padding: 1rem 2.4rem;
+    min-width: 12rem;
     background-color: #2563eb;
     border-radius: 4rem;
-    font-size: 1.6rem;
+    font-size: 1.55rem;
+    line-height: 1.2;
     color: white;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.08rem;
     font-weight: 600;
     border: 2px solid #2563eb;
-    transition: 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
 }
 
 .btn:hover{
