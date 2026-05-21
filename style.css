@@ -374,9 +374,7 @@ span{
         margin: 5rem 4rem;
     }
 
-    .home-img img{
-        width: 70vw;
-        margin-top: 4rem;
-        max-width: none;
+    .home-img{
+        display: none;
     }
 }
