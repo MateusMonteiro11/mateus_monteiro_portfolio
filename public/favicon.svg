@@ -9,42 +9,33 @@
   <!-- Background with rounded corners -->
   <rect width="512" height="512" rx="88" ry="88" fill="#0d0d0d"/>
 
-  <!--
-    Layout plan (total symbol width ~380px, centered at 256):
-    Left edge at x=68, right edge at x=448
-    < : apex at x=80, arms from x=116
-    M : center at x=256 (text-anchor middle)
-    / : from (348,196) to (314,316)
-    > : apex at x=432, arms from x=396
-  -->
-
   <!-- Left chevron < -->
-  <polyline points="116,196 68,256 116,316"
+  <polyline points="156,206 118,256 156,306"
     fill="none"
     stroke="url(#chevronGrad)"
     stroke-width="26"
     stroke-linecap="round"
     stroke-linejoin="round"/>
 
-  <!-- Letter M -->
+  <!-- Letter M (subtle vertical shift to y=259) -->
   <text
-    x="256"
-    y="256"
+    x="242"
+    y="259"
     font-family="'Courier New', Courier, monospace"
-    font-size="190"
+    font-size="180"
     font-weight="600"
     fill="#ffffff"
     text-anchor="middle"
     dominant-baseline="middle">M</text>
 
   <!-- Slash / -->
-  <line x1="352" y1="196" x2="316" y2="316"
+  <line x1="338" y1="206" x2="308" y2="306"
     stroke="url(#chevronGrad)"
     stroke-width="26"
     stroke-linecap="round"/>
 
   <!-- Right chevron > -->
-  <polyline points="396,196 444,256 396,316"
+  <polyline points="368,206 406,256 368,306"
     fill="none"
     stroke="url(#chevronGrad)"
     stroke-width="26"
