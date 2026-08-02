@@ -1,115 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mateus Monteiro — Portfolio</title>
+    <meta name="description" content="Mateus Monteiro — Software & Data Engineering — portfolio" />
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="icon" type="image/svg+xml" href="public/favicon.svg">
-    <link rel="shortcut icon" href="public/favicon.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <meta property="og:title" content="Mateus Monteiro's Portfolio" />
-    <meta property="og:description" content="Portfólio web de Mateus Monteiro, entusiasta em tecnologia" />
-    <meta property="og:image" content="public/preview.svg" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://mateusmonteiro11.github.io/mateus_monteiro_portfolio/" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Mateus Monteiro's Portfolio" />
-    <meta name="twitter:description" content="Portfólio web de Mateus Monteiro, entusiasta em tecnologia" />
-    <meta name="twitter:image" content="public/preview.svg" />
-    <title> Mateus Monteiro's Portfolio </title>
+    <!-- Inter + Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
 
-</head>
-
-<body>
-    <header>
-        <a href="#" class="logo"> Mateus Monteiro </a>
-
-        <nav>
-            <a href="#" class="active"> Home </a>
-            <a href="#projetos"> Projetos </a>
-            <a href="#contato"> Contatos </a>
-            <a href="#"> Serviços </a>
-        </nav>
-        
-    </header>
-    <section class="home">
-        <div class="home-img">
-            <img src="imagens/imagem.png" alt="imagem_foto">
-        </div>
-        <div class="home-content">
-            <h1> Olá, eu sou <span> Mateus Monteiro</span></h1>
-            <h3 class="typing-text"> Eu sou um <span></span></h3>
-            <p>Meu nome é Mateus Monteiro, atualmente estudante
-                universitário do Centro Universitário FEI, seja
-                bem vindo ao meu site de desenvolvimento web.
-            </p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/mateus-monteiro-ab996a397/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/MateusMonteiro11"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-            <a href="documentos/Documento_Mateus_Monteiro.pdf" class="btn">Formulário</a>
-        </div>
-    </section>
-    <section class="projetos" id="projetos">
-    <h2 class="titulo">Meus <span>Projetos</span></h2>
-
-    <div class="container-projetos">
-        <div class="card-projeto">
-            <img src="imagens/pj1.png" alt="Projeto 1">
-            <h3> GERENCIAMENTO DE TRANSPORTES </h3>
-            <p> Desenvolvimento de um sistema voltado à otimização da logística de transporte em instituições de ensino superior, solucionando problemas de superlotação, ociosidade e atrasos através de dados complexos e modelos relacionais feitos totalmente em SQL.</p>
-            <a href="https://github.com/MateusMonteiro11/transport_management_system" class="btn">Visualizar</a>
-        </div>
-
-        <div class="card-projeto">
-            <img src="imagens/pj2.png" alt="Projeto 2">
-            <h3> WEBSITE GAME FEITO EM JAVASCRIPT </h3>
-            <p>Projeto feito com a proposta de usar o conhecimento fullstack para recriar um jogo famoso, o jogo escolhido foi o clássico pacman, que induziu a criatividade e a necessidade do entendimento pela lógica, principalmente quando refere-se a JavaScript.</p>
-            <a href="https://github.com/MateusMonteiro11/pacman-game" class="btn">Visualizar</a>
-        </div>
-
-        <div class="card-projeto">
-            <img src="imagens/pj3.png" alt="Projeto 3">
-            <h3> GERENCIAMENTO DINÂMICO DE MUSICAS </h3>
-            <p>Um projeto feito inteiramente em python, feito como projeto de conclusão de semestre durante a universidade. Consiste em uma base lógica python que oferece um serviço de armazenamento de musicas e playlist's, parecido com os de serviços de streaming musicais.</p>
-            <a href="https://github.com/MateusMonteiro11/digital_music_manager" class="btn">Visualizar</a>
-        </div>
-        <div class="card-projeto">
-            <img src="imagens/pj4.png" alt="Projeto 4">
-            <h3> SISTEMA MODULAR DE ESTOQUES </h3>
-            <p>Um projeto que foi destinado a uma empresa, em parceria com a faculdade. Desenvolvi uma pequena implementação em Python, SQL e Tkinter para criar um aplicativo que otimiza estoques com base na auditoria, podendo converte-los em planilhas excel de forma automatica.</p>
-            <a href="https://github.com/MateusMonteiro11/stock_manager" class="btn">Visualizar</a>
-        </div>
-        <div class="card-projeto">
-            <img src="imagens/pj5.png" alt="Projeto 5">
-            <h3> GYM.IO WEBSITE DE TREINOS </h3>
-            <p>Este desenvolvimento web buscou criar uma saas que permite gerenciar treinos, treinar, agendar, visualizar historico e ainda ter seu próprio perfil, a interface é totalmente completa, com crud funcional e banco de dados integrado, o website é aberto e seguro para qualquer um utilizar.</p>
-            <a href="https://gym-io-omega.vercel.app/" class="btn">Visualizar</a>
-        </div>
-        <div class="card-projeto">
-            <img src="imagens/pj6.png" alt="Projeto 6">
-            <h3> APLICATIVO DE STREAMING JAVA </h3>
-            <p>Um aplicativo feito durante o terceiro semestre de graduação, feito de forma academica buscando implementar conhecimentos de Java, SQL e Swing para criar uma interface gráfica que armazena playlists de videos, parecido com o gerenciamento de playlist's musicais.</p>
-            <a href="https://github.com/MateusMonteiro11/streaming_java_app" class="btn">Visualizar</a>
-        </div>
-    </div>
-</section>
-<section class="contato" id="contato">
-    <h2 class="titulo">Entre em <span>Contato</span></h2>
-
-    <form action="https://formspree.io/f/xbloarwp" method="POST" class="form-contato">
-        <input type="text" name="nome" placeholder="Seu nome" required>
-        <input type="email" name="email" placeholder="Seu e-mail" required>
-        <textarea name="mensagem" rows="6" placeholder="Sua mensagem" required></textarea>
-        <button type="submit" class="btn">Enviar</button>
-    </form>
-
-</section>
-
-    <script src="typing.js"></script>
-</body>
+    <link rel="icon" href="/favicon.png" type="image/jpeg">
+    <link rel="apple-touch-icon" href="/mateusmonteiro.jpeg">
+    <meta name="theme-color" content="#1a1a1a">
+    <script type="module" src="/src/main.jsx"></script>
+  </head>
+  <body class="antialiased bg-[var(--bg-tint)] text-[var(--black)]">
+    <div id="root"></div>
+  </body>
 </html>
