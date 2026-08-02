@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function Hero({t}){
   const marqueeItems = [t.hero.marquee, t.hero.marquee, t.hero.marquee]
+  const heroImage = `${import.meta.env.BASE_URL}mateusmonteiro.jpeg`
 
   return (
     <section className="pt-20 md:pt-36 pb-20 md:pb-28">
@@ -33,7 +34,7 @@ export default function Hero({t}){
 
         <div className="md:col-span-5">
           <div className="hero-image-wrapper w-full bg-[var(--near-black)] overflow-hidden relative min-w-0">
-            <img src="./mateusmonteiro.jpeg" alt="Portrait of Mateus Monteiro" className="hero-image absolute inset-0 transform transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:filter-none filter grayscale-20 contrast-90" />
+            <img src={heroImage} alt="Portrait of Mateus Monteiro" className="hero-image absolute inset-0 transform transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:filter-none filter grayscale-20 contrast-90" />
             <div className="absolute left-0 right-0 bottom-0 border-t border-[var(--border-dark)] bg-[rgba(0,0,0,0.12)] text-white font-mono text-xs uppercase py-2 px-4 flex justify-between items-center">
               <div>Portrait · 2026</div>
               <div className="opacity-80">↗</div>
