@@ -16,7 +16,7 @@ export default function Contact({t}){
             <div className="mt-6 font-mono uppercase tracking-[0.14em] text-sm flex flex-wrap gap-6">
               <a href="https://www.linkedin.com/in/mateusmonteiro11/" target="_blank" rel="noreferrer">{t.contact.links.linkedin}</a>
               <a href="https://github.com/MateusMonteiro11" target="_blank" rel="noreferrer">{t.contact.links.github}</a>
-              <a href="/CV_MateusMonteiro.pdf" target="_blank" rel="noreferrer">{t.contact.links.resume}</a>
+              <a href={`${import.meta.env.BASE_URL}CV_MateusMonteiro.pdf`} target="_blank" rel="noreferrer">{t.contact.links.resume}</a>
             </div>
 
             <div className="mt-6 text-[var(--text-secondary-dark)] font-mono uppercase text-xs">{t.contact.based}</div>
