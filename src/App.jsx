@@ -24,7 +24,7 @@ const translations = {
     projects: {
       sectionLabel: '02 / Selected Work',
       title: 'Selected Work',
-      year: '2024—26',
+      year: '2025—26',
       projectCards: [
         {
           id: '01',
@@ -46,20 +46,20 @@ const translations = {
         },
         {
           id: '03',
-          title: 'Pacman Game',
-          tag: 'JavaScript',
-          description: 'Recreation of the classic Pac-Man arcade game with JavaScript, canvas rendering, keyboard controls and game state management.',
-          live: null,
-          repo: 'https://github.com/MateusMonteiro11/pacman-game',
-          year: '2025'
-        },
-        {
-          id: '04',
           title: 'Streaming App',
           tag: 'Java Desktop',
           description: 'Java Swing desktop tool for liking and building playlists of series and films, backed by a PostgreSQL media database.',
           live: null,
           repo: 'https://github.com/MateusMonteiro11/streaming_java_app',
+          year: '2026'
+        },
+        {
+          id: '04',
+          title: 'Pacman Game',
+          tag: 'JavaScript',
+          description: 'Recreation of the classic Pac-Man arcade game with JavaScript, canvas rendering, keyboard controls and game state management.',
+          live: null,
+          repo: 'https://github.com/MateusMonteiro11/pacman-game',
           year: '2025'
         }
       ]
@@ -101,7 +101,7 @@ const translations = {
     projects: {
       sectionLabel: '02 / Projetos Selecionados',
       title: 'Projetos Selecionados',
-      year: '2024—26',
+      year: '2025—26',
       projectCards: [
         {
           id: '01',
@@ -123,6 +123,15 @@ const translations = {
         },
         {
           id: '03',
+          title: 'Streaming App',
+          tag: 'Java Desktop',
+          description: 'Ferramenta Java Swing para curtir e montar playlists de séries e filmes, apoiada por um banco de dados PostgreSQL de mídia.',
+          live: null,
+          repo: 'https://github.com/MateusMonteiro11/streaming_java_app',
+          year: '2026'
+        },
+        {
+          id: '04',
           title: 'Pacman Game',
           tag: 'JavaScript',
           description: 'Recriação do clássico Pac-Man em JavaScript, com renderização em canvas, controles de teclado e gerenciamento de estado do jogo.',
@@ -130,15 +139,6 @@ const translations = {
           repo: 'https://github.com/MateusMonteiro11/pacman-game',
           year: '2025'
         },
-        {
-          id: '04',
-          title: 'Streaming App',
-          tag: 'Java Desktop',
-          description: 'Ferramenta Java Swing para curtir e montar playlists de séries e filmes, apoiada por um banco de dados PostgreSQL de mídia.',
-          live: null,
-          repo: 'https://github.com/MateusMonteiro11/streaming_java_app',
-          year: '2025'
-        }
       ]
     },
     contact: {
