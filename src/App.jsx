@@ -66,7 +66,7 @@ const translations = {
     },
     contact: {
       sectionLabel: "03 / Let's talk",
-      emailLabel: 'mateusinaciomonteiro519@gmail.com',
+      emailLabel: 'contato@mateusmonteiro.dev',
       links: {
         linkedin: 'LinkedIn ↗',
         github: 'GitHub ↗',
@@ -143,7 +143,7 @@ const translations = {
     },
     contact: {
       sectionLabel: '03 / Vamos conversar',
-      emailLabel: 'mateusinaciomonteiro519@gmail.com',
+      emailLabel: 'contato@mateusmonteiro.dev',
       links: {
         linkedin: 'LinkedIn ↗',
         github: 'GitHub ↗',
