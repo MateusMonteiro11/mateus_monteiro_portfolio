@@ -92,8 +92,16 @@ img:hover{filter:grayscale(0) saturate(120%) brightness(1.02)}
 }
 
 .display-name{display:inline-block; cursor:default}
-.scramble-word{white-space:nowrap}
-.scramble-character{display:inline-grid;position:relative}
+.scramble-word{
+  white-space:nowrap;
+  font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', monospace;
+  font-weight:700;
+  font-kerning:none;
+  font-variant-ligatures:none;
+  letter-spacing:-0.045em;
+  line-height:0.88;
+}
+.scramble-character{display:inline-grid;position:relative;width:1ch}
 .scramble-character-sizer{visibility:hidden}
 .scramble-character-value{position:absolute;inset:0;display:grid;place-items:center}
 
